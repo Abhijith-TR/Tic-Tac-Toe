@@ -45,44 +45,10 @@ If still not possible, compile all the files separately using javac filename.jav
 2. If 1 is entered, the user will be asked to enter a number. Enter a number ONLY between 1-9 and press enter. The board will display 
    twice. Once after the player enters it and once to signify the computers move. No input is required until the program prompts the 
    user to enter the next number. Skip to instruction 4. 
-   e.g. 
-   	The player is X and the computer is O
-	Player 1, enter a number [1-9] : 1
-	 X |   |  
-	---|---|---
-	   |   |  
-	---|---|---
-	   |   |  
-
-	Computer, enter a number[1-9] : 5
-	 X |   |  
-	---|---|---
-	   | O |  
-	---|---|---
-	   |   |  
-
-	Player 1, enter a number [1-9] : 9
 	
 3. If 2 is entered, player 1 will be asked to enter a number. Enter a number ONLY between 1-9 and press enter. The board will display 
    once. Then, player 2 will be prompted to enter a input, if the game has not ended. Enter a number ONLY between 1-9 and press enter. 
    The board will display again. If the game has not ended, player 1 will be prompted to enter a number.
-   e.g. 
-   	Player 1 is X and Player 2 is O
-	Player 1, enter a number [1-9] : 1
-	 X |   |  
-	---|---|---
-	   |   |  
-	---|---|---
-	   |   |  
-
-	Player 2, enter a number [1-9] : 2
-	 X | O |  
-	---|---|---
-	   |   |  
-	---|---|---
-	   |   |  
-
-	Player 1, enter a number [1-9] : 
 
 4. Once a winning configuration is reached, the game will end by itself without any input from the user. Run again using java TicTacToe to play again.
 
